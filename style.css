@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(36, 17, 53);
+}
+
+
+
+#newItemEntry{
+    /* border: 2px solid rgb(10, 11, 11); */
+    border-radius: 7px;
+    padding: 20px;
+    background-color: beige;
+}
+#toDoList{
+    min-height: 500px;
+    border-radius: 7px;
+    padding: 20px;
+    background-color: beige;
+}
+#inputItem{
+    height: 4rem;
+    border-radius: 7px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+button{
+    height: 4rem;
+    border: none;
+    border-radius: 7px;
+    font-size: 20px;
+    margin-left: 20px;
+    color: white;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+#addItem{
+    background-color: green;
+
+}
+
+.clearItem{
+    background-color: red;
+    width: 50px;
+    height: 2rem;
+
+}
+
+
+
+ul{
+    list-style-type: none;
+    padding: 7px;
+    font-size: 16px;
+}
+
+li{
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid blueviolet;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* .item{
+    padding: 8px;
+    
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
