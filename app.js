@@ -1,7 +1,16 @@
-
 const newItem = document.getElementById("inputItem");
 const item = document.getElementById("taskList");
 const addItem = document.getElementById("addItem");
+
+
+
+
+
+
+
+
+
+
 
 addItem.addEventListener('click', () => {
     if(newItem.value != "" ) {
@@ -12,7 +21,8 @@ addItem.addEventListener('click', () => {
             <button class="clearItem"> Clear </button>
             `;
         item.appendChild(listTask);
-        // newItem.value = "";
+        
+        newItem.value = "";
     }
 })
 
